@@ -1,10 +1,11 @@
 import React from "react"
+import ItemList from "../ItemList/ItemList"
 import './item-list-container.css'
 
 const ItemListContainer = () => {
     return (
         <div className="cards-container">
-            <p className="cards-title">we accompany you to your next destination</p>
+            <ItemList></ItemList>
         </div>
     )
 }
