@@ -1,23 +1,20 @@
-import React from "react"
-import Item from "../Item/Item"
+import React from 'react';
+import Item from '../Item/Item';
+import './itemList.css';
 
 const ItemList = () => {
+
     const products = [
-        {id: 1, name: 'Madrid', price: 100000, pictureUrl:"../public/assets/img/madrid.jpg"},
-        {id: 2, name: 'Barcelona', price: 110000, pictureUrl:"../public/assets/img/barcelona.jpg"},
-        {id: 3, name: 'Paris', price: 90000, pictureUrl:"../public/assets/img/paris.jpg"},
-        {id: 4, name: 'Londres', price: 110000, pictureUrl:"../public/assets/img/londres.jpg"},
-        {id: 5, name: 'Berlin', price: 85000, pictureUrl:"../public/assets/img/berlin.jpg"}
+        {city: 'Barcelona', price: 110000, id: 1, img: '../../../public/assets/img/barcelona.jpg'},
+        {city: 'Madrid', price: 100000, id: 2, img: '../../../public/assets/img/madrid.jpg'},
+        {city: 'Londres', price: 105000, id: 3, img: '../../../public/assets/img/londres.jpg'},
+        {city: 'Berlin', price: 90000, id: 4, img: '../../../public/assets/img/berlin.jpg'},
+        {city: 'Paris', price: 95000, id: 5, img: '../../../public/assets/img/paris.jpg'}
     ];
-    console.log(<Item props={products}></Item>)
 
     return(
-        <>
-            <Item props={products}></Item>
-            <Item props={products}></Item>
-            <Item props={products}></Item>
-        </>
-    )
+        <Item></Item>
+    );
 }
 
-export default ItemList
+export default ItemList;

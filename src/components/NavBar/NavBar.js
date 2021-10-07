@@ -7,7 +7,7 @@ const NavBar = () => {
         <header className="header">
             <div className='logo'>
                 <CartWidget></CartWidget>
-                <h1 className='brand'>Travel Agency</h1>
+                <h1 className='brand'>Travelers</h1>
             </div>
             <nav className='navbar'>
                 <p className='navbar-item'>About Us</p>

@@ -1,8 +1,32 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div {
+    display: flex;
+    align-items: center;
+}
+
 .cards-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 25px;
 }
 
-.cards-title {
-    font-size: 2.3em;
+.cards-container__text {
+    font-size: 1.3em;
+}
+
+.items-button {
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(36, 36, 36);
+    color: rgb(255,255,255);
+    border: 0;
+    cursor: pointer;
 }
