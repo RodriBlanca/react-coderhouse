@@ -9,7 +9,7 @@ const Item = ({city, price, img}) => {
             </div>
             <div className="item-information">
                 <h2 className="item-information__city">{city}</h2>
-                <p className="item-information__price">{price}</p>
+                <p className="item-information__price">${price}</p>
             </div>
         </div>
     );

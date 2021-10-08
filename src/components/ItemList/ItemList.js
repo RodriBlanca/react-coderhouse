@@ -13,7 +13,11 @@ const ItemList = () => {
     ];
 
     return(
-        <Item></Item>
+        <>
+            <Item city={products[0].city} price={products[0].price} img={products[0].img}></Item>
+            <Item city={products[1].city} price={products[1].price}></Item>
+            <Item city={products[2].city} price={products[2].price}></Item>
+        </>
     );
 }
 

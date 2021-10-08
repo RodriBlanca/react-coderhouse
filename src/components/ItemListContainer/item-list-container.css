@@ -11,8 +11,7 @@ main > div {
 }
 
 .cards-container {
-    display: flex;
-    justify-content: center;
+    display: none;
     align-items: center;
     margin-top: 25px;
 }
